@@ -1,6 +1,6 @@
 #  Calculadora Desktop com JavaFX
 
-Este é um projeto de uma calculadora de desktop robusta, construída com Java e JavaFX. A aplicação apresenta uma interface de usuário moderna, estilizada com CSS, e lida com operações aritméticas básicas e científicas.
+Este é um projeto de uma calculadora de desktop, construída com Java e JavaFX. A aplicação apresenta uma interface de usuário moderna, estilizada com CSS, e lida com operações aritméticas básicas e científicas.
 
 <img src="src/main/resources/imagens/calculadora.png" alt="Calculadora" style="max-width:20%; height:auto;" />
 
@@ -84,7 +84,7 @@ calculadora-javafx/
 
 1.  Clone este repositório:
     ```sh
-    git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/seu-usuario/seu-repositorio.git)
+    git clone https://github.com/BrunoVerly/calculadora-javafx.git
     ```
 2.  Abra o projeto na sua IDE (IntelliJ, Eclipse, etc.).
 3.  Se você estiver usando Maven ou Gradle, aguarde a IDE baixar as dependências (incluindo as do JavaFX).
