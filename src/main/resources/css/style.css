@@ -1,0 +1,66 @@
+/* =======================
+   Estilo global da calculadora
+   ======================= */
+
+/* Estilo para o AnchorPane principal */
+.anchor-pane {
+    -fx-background-color: #202020;
+    -fx-background-radius: 7.5;
+    -fx-border-radius: 7.5;
+}
+
+/* Botões principais (numéricos e operações) */
+.button {
+    -fx-background-color: #3b3b3b;
+    -fx-text-fill: #fefefe;
+    -fx-font-family: "System";
+    -fx-font-size: 20px;
+    -fx-border-radius: 7.5;
+    -fx-background-radius: 7.5;
+    -fx-cursor: hand;
+}
+
+/* Botões numéricos maiores (igual, 0) */
+#igual {
+    -fx-background-color: #2596be;
+}
+
+.button:hover {
+    -fx-background-color: #4d4d4d; /* hover mais claro para botões */
+}
+
+#igual:hover {
+    -fx-background-color: #3aa0ce; /* hover mais claro para "=" */
+}
+
+/* Labels da tela da calculadora */
+#tela {
+    -fx-background-color: #202020;
+    -fx-text-fill: #fefefe;
+    -fx-font-family: "System";
+    -fx-font-size: 40px;
+    -fx-alignment: center-right;
+    -fx-label-padding: 0;
+}
+
+/* Labels do histórico */
+#historico1, #historico2, #historico3 {
+    -fx-background-color: #202020;
+    -fx-text-fill: #cdcaca;
+    -fx-font-family: "System";
+    -fx-font-size: 15px;
+    -fx-alignment: center-right;
+}
+
+/* Botões da barra de título (minimizar, maximizar, fechar) */
+#minimizarButton, #fecharButton, #maximizarButton {
+    -fx-background-color: #202020;
+    -fx-text-fill: #fefefe;
+    -fx-font-size: 14px;
+    -fx-border-radius: 0;
+    -fx-background-radius: 0;
+}
+
+#minimizarButton:hover, #fecharButton:hover, #maximizarButton:hover {
+    -fx-background-color: #3b3b3b;
+}
