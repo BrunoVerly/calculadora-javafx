@@ -2,65 +2,68 @@
    Estilo global da calculadora
    ======================= */
 
-/* Estilo para o AnchorPane principal */
+/* Estilo para o AnchorPane principal (container raiz) */
 .anchor-pane {
-    -fx-background-color: #202020;
-    -fx-background-radius: 7.5;
-    -fx-border-radius: 7.5;
+    -fx-background-color: #202020; /* Cor de fundo escura */
+    -fx-background-radius: 7.5; /* Cantos arredondados para o fundo */
+    -fx-border-radius: 7.5; /* Cantos arredondados para a borda */
 }
 
 /* Botões principais (numéricos e operações) */
 .button {
-    -fx-background-color: #3b3b3b;
-    -fx-text-fill: #fefefe;
-    -fx-font-family: "System";
-    -fx-font-size: 20px;
-    -fx-border-radius: 7.5;
-    -fx-background-radius: 7.5;
-    -fx-cursor: hand;
+    -fx-background-color: #3b3b3b; /* Cor de fundo padrão do botão */
+    -fx-text-fill: #fefefe; /* Cor do texto (branco) */
+    -fx-font-family: "System"; /* Fonte padrão do sistema */
+    -fx-font-size: 20px; /* Tamanho da fonte */
+    -fx-border-radius: 7.5; /* Cantos arredondados */
+    -fx-background-radius: 7.5; /* Cantos arredondados */
+    -fx-cursor: hand; /* Cursor de "mãozinha" ao passar por cima */
 }
 
-/* Botões numéricos maiores (igual, 0) */
+/* Estilo específico para o botão "igual" */
 #igual {
-    -fx-background-color: #2596be;
+    -fx-background-color: #2596be; /* Cor de destaque (azul) */
 }
 
+/* Efeito :hover (mouse em cima) para botões genéricos */
 .button:hover {
     -fx-background-color: #4d4d4d; /* hover mais claro para botões */
 }
 
+/* Efeito :hover (mouse em cima) para o botão "igual" */
 #igual:hover {
     -fx-background-color: #3aa0ce; /* hover mais claro para "=" */
 }
 
-/* Labels da tela da calculadora */
+/* Labels da tela da calculadora (display principal) */
 #tela {
-    -fx-background-color: #202020;
-    -fx-text-fill: #fefefe;
+    -fx-background-color: #202020; /* Fundo igual ao painel */
+    -fx-text-fill: #fefefe; /* Cor do texto (branco) */
     -fx-font-family: "System";
-    -fx-font-size: 40px;
-    -fx-alignment: center-right;
-    -fx-label-padding: 0;
+    -fx-font-size: 40px; /* Fonte maior para o resultado */
+    -fx-alignment: center-right; /* Alinhamento do texto à direita */
+    -fx-label-padding: 0; /* Remove preenchimento interno */
 }
 
-/* Labels do histórico */
+/* Labels do histórico (operações anteriores) */
 #historico1, #historico2, #historico3 {
     -fx-background-color: #202020;
-    -fx-text-fill: #cdcaca;
+    -fx-text-fill: #cdcaca; /* Cor de texto mais suave (cinza claro) */
     -fx-font-family: "System";
-    -fx-font-size: 15px;
-    -fx-alignment: center-right;
+    -fx-font-size: 15px; /* Fonte menor para o histórico */
+    -fx-alignment: center-right; /* Alinhamento à direita */
 }
 
-/* Botões da barra de título (minimizar, maximizar, fechar) */
+/* Botões da barra de título customizada (minimizar, maximizar, fechar) */
 #minimizarButton, #fecharButton, #maximizarButton {
-    -fx-background-color: #202020;
-    -fx-text-fill: #fefefe;
+    -fx-background-color: #202020; /* Fundo transparente (mesma cor do painel) */
+    -fx-text-fill: #fefefe; /* Cor do ícone/texto */
     -fx-font-size: 14px;
-    -fx-border-radius: 0;
-    -fx-background-radius: 0;
+    -fx-border-radius: 0; /* Remove cantos arredondados */
+    -fx-background-radius: 0; /* Remove cantos arredondados */
 }
 
+/* Efeito :hover para os botões da barra de título */
 #minimizarButton:hover, #fecharButton:hover, #maximizarButton:hover {
-    -fx-background-color: #3b3b3b;
+    -fx-background-color: #3b3b3b; /* Destaca o botão ao passar o mouse */
 }
